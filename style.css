@@ -15,17 +15,22 @@
 	  // overflow: visible;
 	  
   }  
+  @media only screen and (max-width: 340px) {
+  body {
+    background-color: lightblue;
+  }
+}
   .intro
   {
 	  color: white;
-	  font-size: 30px;
+	  font-size: 20px;
 	//  padding-top: 100px; 
 	// padding-left: 80px;
   }
   .MyName1
   {
 	  color: white;
-	  font-size: 60px;
+	  font-size: 50px;
 	 // padding-top: 50px;
 	 // padding-left: 80px;
   }
@@ -39,7 +44,7 @@
   .connectme
   {
 	  color: white;
-	  font-size: 40px;  
+	  font-size: 30px;  
 	  padding-top: 100px;
   }
    .circularimg 
@@ -52,20 +57,37 @@
 	  
     .para
   {
-	 color: white;
+	 color: green;
 	 font-size: 26px; 
-	 position: absolute;
+	 // position: absolute;
 	 // padding-left: 80px;
   }
-   .fa {
+   .para1
+  {
+	 color: white;
+	 font-size: 28px; 
+	 padding-top: 10px;
+	 // position: absolute;
+	 // padding-left: 80px;
+  }
+  .para2
+  {
+	 color: red;
+	 font-size: 30px; 
+	 padding-top: 10px;
+	 // position: absolute;
+	 // padding-left: 80px;
+  }
+   .fa
+  {
     padding: 10px;
-    font-size: 30px;
-    width: 30px;
+    font-size: 20px;
+    width: 20px;
     text-align: center;
     text-decoration: none;
     margin: 20px 2px;
     border-radius: 50%;
-}
+ }
 .fa:hover 
  {
     opacity: 0.7;
@@ -96,3 +118,8 @@
   background: #bb0000;
   color: white;
  }
+.Textchange 
+{
+	font-size: 26px;
+	color: white;
+}

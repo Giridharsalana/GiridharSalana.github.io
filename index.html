@@ -10,21 +10,39 @@
 <center>
 <div class="container">
 <div class="intro">
-<h2> Hi There! <span style="color: yellow;"><span/>&#128075 <h2>
+<br>
+<br>
+<h2> Hi There! <span style="color: yellow;"><span/> &#128075 <h2>
 </div> <!-- intro div end -->
-<h2 class="MyName1">I'm <b><span style="color:green">Giridhar Salana</span></b> </h2>
-<h2 class="MyName2"> <b> You can call me <a href="https://giridharsalana.github.io" style="text-decoration: none; color: red;">Giri</a></b><h2>
-<img class="circularimg" align="center" width="340px" height="230px" src="./images/profile.jpg" alt="Profile Pic" >
+<br>
+<h2 class="MyName1">I'm <b><span style="color:red"><a href="https://giridharsalana.github.io" style="text-decoration: none; color: red;">Giridhar Salana</a></span></b> </h2>
+<br>
+<img class="circularimg" align="center" width="340px" height="250px" src="./images/profile.jpg" alt="Profile Pic" >
 </div> <!-- MyName div end -->
 <br>
 <br>
-<br>
-<br>
-<p class="para"><b> I'm an Electronics Engineer & Hobbyist, Coding Enthusiast, A Curious Being & An Overthinker. </b></p>
+<p class="para"><b> I'm </b><div class="para1" id="Textchange"></div> </p> 
 
+<br><br><br><p class="para2"> This Page is under Building</p>
+<script type="text/javascript">
+var text = ["An Electronics Engineer & Hobbyist", "Tech Enthusiast", "A Curious Being", "An Overthinker"];
+var counter = 0;
+var elem = document.getElementById("Textchange");
+var inst = setInterval(change, 2000);
+
+function change() 
+{
+  elem.innerHTML = text[counter];
+  counter++;
+  if (counter >= text.length) 
+  {
+    counter = 0;
+    // clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
+  } 
+}
+change()
+</script>
 <!-- Social Links -->
-
-
 <br><br><br><br><br><br><br><br><br><br><br><br>
 <h3 class="connectme"> Get in touch with Me <h3>
 <a href="https://www.facebook.com/giridharsalana" class="fa fa-facebook"></a>
