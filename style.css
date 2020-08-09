@@ -15,9 +15,13 @@
 	  // overflow: visible;
 	  
   }  
-  @media only screen and (max-width: 350px) {
-  body {
-    background-color: lightblue;
+  @media only screen and (max-width: 700px) 
+  {
+  .MyName1
+   {
+   color: green;
+   font-size: 30px;
+ 
   }
 }
   .intro
