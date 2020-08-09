@@ -45,7 +45,7 @@
    .circularimg 
   {
 	  border-radius: 50%;
-	  position: absolute;
+	  // position: absolute;
 	  // top: 100px;
 	  // right: 80px;
   }
