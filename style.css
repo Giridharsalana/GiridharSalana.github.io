@@ -15,15 +15,7 @@
 	  // overflow: visible;
 	  
   }  
-  @media only screen and (max-width: 700px) 
-  {
-  .MyName1
-   {
-   color: green;
-   font-size: 30px;
- 
-  }
-}
+
   .intro
   {
 	  color: white;
@@ -38,6 +30,17 @@
 	 // padding-top: 50px;
 	 // padding-left: 80px;
   }
+
+  @media only screen and (max-width: 600px) 
+  {
+  .MyName1
+   {
+   color: green;
+   font-size: 30px;
+ 
+  }
+}
+
   .MyName2
   {
 	  color: white;
