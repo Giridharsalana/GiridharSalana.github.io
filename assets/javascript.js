@@ -1,4 +1,4 @@
-<script type="text/javascript" >
+
 var text = ["An Electronics Engineer", "An Electronics Hobbyist", "Tech Enthusiast", "A Geeky Coder", "A Curious Being", "An Overthinker"];
 var counter = 0;
 var elem = document.getElementById("Textchange");
@@ -33,4 +33,3 @@ function colorchange()
 
 change()
 colorchange()
-</script>
