@@ -15,7 +15,7 @@
 <h2> Hi There! <span style="color: yellow;"><span/> &#128075 <h2>
 </div> <!-- intro div end -->
 <br>
-<h2 class="MyName1">I'm <b><a href="https://giridharsalana.github.io" style="text-decoration: none; color: white;">Giridhar Salana</a></span></b> </h2>
+<h2 class="MyName1">I'm <b><div id="colorchange"><a href="https://giridharsalana.github.io" style="text-decoration: none; color: white;">Giridhar Salana</a></span></b></div></h2>
 <br>
 <img class="circularimg" align="center" width="340px" height="250px" src="./images/profile.jpg" alt="Profile Pic" >
 </div> <!-- MyName div end -->
@@ -42,6 +42,23 @@ function change()
     // clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
   } 
 }
+
+var color = ["green", "red", "blue",];
+counter1 = Math.floor(Math.random() * 4);
+//var counter1 = 0;
+elem1 = document.getElementById("colorchange");
+var inst1 = setInterval(colorchange, 1000);
+function colorchange() 
+{
+  elem1.style.color = color[counter1];
+  counter1++;
+  if (counter1 >= color.length) 
+  {
+    counter1 = 0;
+    // clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
+  } 
+}
+
 change()
 </script>
 <!-- Social Links -->
