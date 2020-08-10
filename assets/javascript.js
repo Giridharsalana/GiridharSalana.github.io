@@ -32,4 +32,5 @@ function colorchange()
 }
 
 change()
+colorchange()
 </script>
