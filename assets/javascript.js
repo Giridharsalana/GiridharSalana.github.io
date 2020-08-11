@@ -30,6 +30,5 @@ function colorchange()
     // clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
   } 
 }
-
 change()
 colorchange()
